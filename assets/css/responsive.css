@@ -1,0 +1,539 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .main-logo {
+        padding: 0;
+    }
+
+    .header-btn button {
+        padding: 30px 33px;
+        font-size: 13px;
+    }
+
+    .menubar li a {
+        padding: 15px 7px;
+        font-size: 15px;
+    }
+
+    .header-con-number span {
+        padding-left: 0;
+        font-size: 11px;
+    }
+
+    nav {
+        padding-left: 11px;
+    }
+
+    .banner-header h2 {
+        font-size: 65px;
+    }
+
+    .about-right {
+        padding: 35px 15px;
+    }
+
+    .services-item {
+        padding: 0px;
+    }
+
+    .services-item-text {
+        padding-left: 10px;
+    }
+
+    .analyz-text h2 {
+        font-size: 50px;
+    }
+
+    .countup-title {
+        font-size: 14px;
+    }
+    .video-icon a {
+        height: 60px;
+    }
+    .video-icon::after {
+        left: -70px;
+        width: 96px;
+        height: 83px;
+    }
+    
+    .video-icon::before {
+        left: 65px;
+        width: 85px;
+        height: 71px;
+    }
+
+    .customer-slider .slick-next {
+        right: 32.3%;
+    }
+
+    .quote-fromarea .quote.quote-message {
+        height: 75px;
+    }
+
+    .quote-left .section-title .portflio-header {
+        font-size: 32px;
+    }
+
+    .quote-fromarea .quote .quote-name,
+    .quote-email,
+    .quote-subject {
+        padding: 15px;
+    }
+    .customer-slider .slick-prev {
+        left: 63.3%;
+    }
+}
+
+/* Tablet desktop :768px. */
+@media (max-width: 991px) {
+    .menubar {
+        display: none;
+    }
+
+    .slicknav_btn {
+        margin-top: -76px;
+    }
+
+    .menubar ul {
+        position: relative;
+        width: 100%;
+    }
+
+    .menubar li a i {
+        display: none;
+    }
+
+    .menubar li:hover>.submenu {
+        display: none;
+    }
+
+    a.header-btn.top {
+        display: none;
+    }
+
+    .banner-header h2 {
+        font-size: 28px;
+    }
+
+    .about-right {
+        padding: 23px 20px;
+    }
+
+    .about-title h2 {
+        font-size: 28px;
+        padding: 12px 0;
+    }
+
+    .about-title ul {
+        padding-bottom: 14px;
+    }
+
+    .about-title ul li {
+        padding-bottom: 10px;
+    }
+
+    .services-item-text h2 {
+        font-size: 17px;
+    }
+
+    .analyz-text {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .team-member {
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+
+    .on-silder .slick-prev {
+        left: -93px;
+        top: 33%;
+    }
+
+    .on-silder .slick-next {
+        right: -93px;
+        top: 33%;
+    }
+
+    .work-title h3 {
+        font-size: 25px;
+    }
+
+    .countup-title::before {
+        display: none;
+    }
+
+    .countup-itam {
+        padding-left: 0px;
+    }
+
+    .countup,
+    .counter {
+        font-size: 40px;
+    }
+
+    .video-icon::before {
+        display: none;
+    }
+
+    .video-icon::after {
+        display: none;
+    }
+
+    .video-icon {
+        margin-top: 10px;
+    }
+
+    .countup-title {
+        font-size: 14px;
+    }
+
+    .customer-area .section-title::after {
+        display: none;
+    }
+
+    .customer-taxt {
+        margin-top: 0;
+        padding-top: 40px;
+    }
+
+    .customer-taxt h2 {
+        margin-top: 5px;
+    }
+
+    .customer-slider .slick-prev {
+        left: 54%;
+        top: 77%;
+    }
+
+    .customer-slider .slick-next {
+        right: 40%;
+        top: 90%;
+    }
+
+    .lates-item {
+        margin-bottom: 15px;
+    }
+
+    .quote-fromarea .quote .quote-name,
+    .quote-email,
+    .quote-subject {
+        width: 335px;
+    }
+
+    .quote-right {
+        display: none;
+    }
+
+    .footer-wrap h2 {
+        font-size: 17px;
+    }
+
+    .footer-wrap ul li {
+        padding-bottom: 5px;
+    }
+
+
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .menubar {
+        display: none;
+    }
+
+    .slicknav_btn {
+        margin-top: -45px;
+    }
+
+    .benner-right {
+        display: none;
+    }
+
+    .banner-header p {
+        margin: 0;
+    }
+
+    .banner-header {
+        padding-top: 0;
+    }
+
+    .banner-header .header-btn button {
+        font-size: 14px;
+        padding: 15px 25px;
+    }
+
+    .banner-area {
+        padding: 50px 0;
+    }
+
+    .process-area {
+        margin: 50px 0;
+    }
+
+    .section-title::after {
+        display: none;
+    }
+
+    .menubar ul {
+        position: relative;
+        width: 100%;
+    }
+
+    .menubar li a i {
+        display: none;
+    }
+
+    .menubar li:hover>.submenu {
+        display: none;
+    }
+
+    a.header-btn.top {
+        display: none;
+    }
+
+    .banner-header h2 {
+        font-size: 28px;
+    }
+
+    .quote-left .section-title .portflio-header {
+        font-size: 36px;
+        margin: 10px 0;
+    }
+    .section-title h2 {
+        font-size: 34px;
+        margin: 10px 0;
+    }
+    .section-title span {
+        font-size: 15px;
+        letter-spacing: 2px;
+        padding: 0 5px;
+    }
+
+    .process-text {
+        margin: 20px 0;
+    }
+
+    .services-area {
+        margin: 50px 0;
+    }
+
+    .analyz-area {
+        padding: 50px 0;
+    }
+
+    .analyz-text span {
+        padding-left: 20px;
+    }
+
+    .analyz-text span::after {
+        right: -50px;
+    }
+
+    .analyz-text h2 {
+        font-size: 30px;
+    }
+
+    .header-btn button {
+        padding: 15px 17px;
+        font-size: 14px;
+    }
+
+    .analyz-from .url,
+    :focus-visible {
+        padding: 17px 0 17px 15px;
+    }
+
+    .teammember-area {
+        margin: 50px 0;
+    }
+
+    .portflio-area {
+        padding: 50px 0;
+    }
+
+    .about-right {
+        padding: 23px 20px;
+    }
+
+    .about-title h2 {
+        font-size: 28px;
+        padding: 12px 0;
+    }
+
+    .about-title ul {
+        padding-bottom: 14px;
+    }
+
+    .about-title ul li {
+        padding-bottom: 10px;
+    }
+
+    .services-item-text h2 {
+        font-size: 17px;
+    }
+
+    .analyz-text {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .services-item {
+        padding: 10px;
+    }
+
+    .team-member {
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+
+    .on-silder .slick-prev {
+        left: -93px;
+        top: 26%;
+    }
+
+    .on-silder .slick-next {
+        right: -93px;
+        top: 26%;
+    }
+
+    .work-title h3 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .countup-title::before {
+        display: none;
+    }
+
+    .countup-itam {
+        padding-left: 0px;
+    }
+
+    .countup,
+    .counter {
+        font-size: 40px;
+    }
+
+    .video-icon::before {
+        display: none;
+    }
+
+    .video-icon::after {
+        display: none;
+    }
+
+    .video-icon {
+        margin-top: 10px;
+    }
+
+    .countup-title {
+        font-size: 14px;
+    }
+
+    .customer-area .section-title::after {
+        display: none;
+    }
+
+    .customer-taxt {
+        margin-top: 0;
+        padding-top: 40px;
+    }
+
+    .customer-taxt h2 {
+        margin-top: 5px;
+        font-size: 15px;
+    }
+
+   
+    .lates-area {
+        padding: 30px 0;
+    }
+
+    .lates-wrap {
+        padding-top: 20px;
+    }
+    .lates-text h3 {
+        font-size: 15px;
+    }
+    .customer-slider .slick-arrow {
+        display: none;
+    }
+
+    .customer-area {
+        margin: 50px 0;
+    }
+
+    .customer-weap {
+        margin-top: 10px;
+    }
+
+    .customer-photo {
+        display: none;
+    }
+
+    .customer-taxt p {
+        font-size: 15px;
+    }
+
+    .customer-taxt span {
+        font-size: 15px;
+    }
+
+    .lates-item {
+        margin-bottom: 15px;
+    }
+
+    .quote-fromarea .quote {
+        display: unset;
+    }
+
+    .quote-fromarea .quote .quote-name,
+    .quote-email,
+    .quote-subject {
+        width: 100%;
+    }
+
+    .quote-fromarea .quote .quote-email {
+        margin-left: 0;
+    }
+
+    .quote-fromarea .quote .quote-subject {
+        margin-left: 0;
+    }
+    .quote-area {
+        margin: 50px 0;
+    }
+    .quote-right {
+        display: none;
+    }
+    .footer-area {
+        padding-top: 50px;
+    }
+    .footer-wrap {
+        margin-bottom: 50px;
+    }
+    .footer-wrap h2 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .footer-wrap h2 span {
+        padding-right: 5px;
+    }
+
+    .footer-wrap ul li {
+        padding-bottom: 5px;
+    }
+  
+    .header-con-number {
+        display: none;
+    }
+
+    .main-logo {
+        padding: 0;
+    }
+}
