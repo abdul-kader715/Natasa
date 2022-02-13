@@ -638,6 +638,9 @@ mobile menu
     opacity: 0;
     visibility: hidden;
     transition: .4s ease-in-out;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .member-tilelname h2 {
@@ -847,6 +850,7 @@ mobile menu
 .countup-itam {
     text-align: center;
     padding-left: 70px;
+    margin-top: 20px;
 }
 
 .countup-title {
@@ -856,7 +860,6 @@ mobile menu
     position: relative;
     display: block;
 }
-
 .countup-title::before {
     position: absolute;
     top: 9px;
@@ -865,6 +868,9 @@ mobile menu
     width: 40px;
     height: 2px;
     background: #ffffff;
+}
+.countup-title.on-countup::before {
+    position: unset;
 }
 
 .countup,
@@ -879,9 +885,9 @@ mobile menu
     justify-content: center;
     align-items: center;
     font-size: 10px;
-    margin-top: 20px;
     z-index: 1;
     position: relative;
+    margin-top: 20px;
 }
 
 .video-icon a {
