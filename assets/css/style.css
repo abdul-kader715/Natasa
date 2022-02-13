@@ -1,5 +1,4 @@
 /* 1. Theme default css */
-@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,700&display=swap');
 
 * {
@@ -106,7 +105,7 @@ body {
         padding: 5px 10px;
     }
 
-    .menubar li:hover > .submenu {
+    .menubar li:hover>.submenu {
         opacity: 1;
         visibility: visible;
         top: 140%;
@@ -273,13 +272,12 @@ mobile menu
 }
 
 /* process area start css */
-.process-area {
-    margin: 120px 0;
-}
+.process-area {}
 
 .section-title {
     text-align: center;
     position: relative;
+    margin-top: -7px;
 }
 
 .section-title::after {
@@ -323,14 +321,16 @@ mobile menu
     color: #000b38;
     font-size: 60px;
     font-weight: 700;
-    margin: 50px 0;
+    margin-top: 35px;
+    line-height: 70px;
+    margin-bottom: 0;
 }
 
 .process-wrap {}
 
 
 .process-card {
-    margin-top: 40px;
+    margin-top: 80px;
 }
 
 .process-card .nub-icon {
@@ -366,7 +366,7 @@ mobile menu
     content: '';
     width: 75px;
     height: 75px;
-    top: 33px;
+    top: 73px;
     left: 7px;
     border-radius: 7px;
     border: 3px dotted #f5f4f9;
@@ -376,7 +376,7 @@ mobile menu
 .nub-icon .process-icon {}
 
 .process-text {
-    margin: 50px 0;
+    margin: 50px 0 0;
 }
 
 .process-text h3 {
@@ -390,6 +390,7 @@ mobile menu
     color: #5a626d;
     font-size: 15px;
     font-weight: 400;
+    margin-bottom: 0;
 }
 
 /* process area end css */
@@ -438,7 +439,7 @@ mobile menu
 
 .about-title h2 {
     font-size: 45px;
-    width: 400;
+    font-weight: 700;
     color: #000b38;
     padding: 30px 0;
 }
@@ -470,9 +471,7 @@ mobile menu
 
 /* about area end css */
 /* services area start css */
-.services-area {
-    margin: 120px 0;
-}
+.services-area {}
 
 .services-area .section-title::after {
     content: url(../images/services.png);
@@ -487,7 +486,7 @@ mobile menu
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0px 1px 9px 0px #f8f8f9;
-    margin: 15px 0;
+    margin-top: 30px;
 }
 
 .services-item-text {
@@ -595,16 +594,14 @@ mobile menu
 
 /* analyz area end css */
 /* team-member area start css */
-.teammember-area {
-    margin: 120px 0;
-}
+.teammember-area {}
 
 .teammember-area .section-title::after {
     content: url(../images/member.png);
 }
 
 .teammember-wrap {
-    margin-top: 30px;
+    margin-top: 90px;
 }
 
 .team-member {
@@ -744,7 +741,9 @@ mobile menu
     content: url(../images/portflio.png);
 }
 
-.portflio-wrap {}
+.portflio-wrap {
+    padding-top: 30px;
+}
 
 .work-img img {
     width: 100%;
@@ -762,7 +761,7 @@ mobile menu
 }
 
 .work-title h3 {
-    color: #000b38;
+    color: #ffffff;
     font-size: 30px;
     font-weight: 700;
     margin-top: 25px;
@@ -821,7 +820,6 @@ mobile menu
 /* count-up area start css */
 .countup-area {
     background: #f5f4f9;
-    padding: 50px 0;
 }
 
 .countup-wrap {
@@ -860,6 +858,7 @@ mobile menu
     position: relative;
     display: block;
 }
+
 .countup-title::before {
     position: absolute;
     top: 9px;
@@ -869,6 +868,7 @@ mobile menu
     height: 2px;
     background: #ffffff;
 }
+
 .countup-title.on-countup::before {
     position: unset;
 }
@@ -928,9 +928,7 @@ mobile menu
 
 /* count-up area end css */
 /* customer area start css */
-.customer-area {
-    margin: 150px 0;
-}
+.customer-area {}
 
 .customer-area .section-title::after {
     content: url(../images/happy.png);
@@ -1107,18 +1105,29 @@ mobile menu
 /* customer area end css */
 
 
-/* latest area start css */
-.lates-area {
-    background: url(../images/lates-bg.jpg);
+/* blogt area start css */
+.blog-area {
+    background: url(../images/blog-bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    padding: 65px 0;
     z-index: 1;
 }
 
-.lates-area::before {
+@media(max-width:991px) {
+    .blog-area {
+        padding-bottom: 60px;
+    }
+}
+
+@media(max-width:767px) {
+    .blog-area {
+        padding-bottom: 50px;
+    }
+}
+
+.blog-area::before {
     position: absolute;
     content: '';
     top: 0;
@@ -1130,64 +1139,64 @@ mobile menu
     z-index: -1;
 }
 
-.lates-area .section-title h2 {
+.blog-area .section-title h2 {
     margin-top: 25px;
 }
 
-.lates-area .section-title::after {
+.blog-area .section-title::after {
     content: '';
 }
 
-.lates-wrap {}
+.blog-wrap {
+    margin-top: 65px;
+}
 
-.lates-item {
+.blog-item {
     background: #000b38;
     border-radius: 7px;
     padding: 20px;
 }
 
-.lates-item img {
+.blog-item img {
     width: 100%;
 }
 
-.lates-text {
+.blog-text {
     background: #ffffff;
     border-radius: 7px;
     padding: 20px;
     margin-top: 30px;
 }
 
-.lates-text span {
+.blog-text span {
     font-size: 13px;
     font-weight: 700;
     color: #f85136;
-    margin-bottom: 15px;
 }
 
-.lates-text h3 {
+.blog-text h3 {
     color: #000b38;
     font-size: 20px;
+    line-height: 28px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin: 8px 0 10px;
 }
 
-.lates-text a {
+.blog-text a {
     color: #5a626d;
     font-size: 15px;
     font-weight: 600;
     text-decoration: none;
 }
 
-.lates-text a i {
+.blog-text a i {
     font-size: 13px;
 }
 
-/* latest area end css */
+/* blogt area end css */
 
 /* quote area start css */
-.quote-area {
-    margin: 120px 0;
-}
+.quote-area {}
 
 .quote-left {}
 
@@ -1289,7 +1298,7 @@ mobile menu
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 150px;
+
     position: relative;
     z-index: 1;
 }
@@ -1340,7 +1349,6 @@ mobile menu
     color: #d5d7df;
     font-size: 16px;
     font-weight: 400;
-
     text-decoration: none;
 }
 
@@ -1365,7 +1373,7 @@ mobile menu
     font-size: 16px;
     font-weight: 400;
     text-align: center;
-    margin: 30px 0;
+    margin: 30px 0 0;
 }
 
 /* footer area end css */

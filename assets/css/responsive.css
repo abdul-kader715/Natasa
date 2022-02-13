@@ -71,6 +71,7 @@
         opacity: 1;
         visibility: visible;
     }
+
     .header-con-number span {
         padding-left: 0;
         font-size: 11px;
@@ -103,15 +104,17 @@
     .countup-title {
         font-size: 14px;
     }
+
     .video-icon a {
         height: 60px;
     }
+
     .video-icon::after {
         left: -70px;
         width: 96px;
         height: 83px;
     }
-    
+
     .video-icon::before {
         left: 65px;
         width: 85px;
@@ -135,9 +138,11 @@
     .quote-subject {
         padding: 15px;
     }
+
     .customer-slider .slick-prev {
         left: 63.3%;
     }
+
 }
 
 /* Tablet desktop :768px. */
@@ -268,7 +273,7 @@
         top: 90%;
     }
 
-    .lates-item {
+    .blog-item {
         margin-bottom: 15px;
     }
 
@@ -288,6 +293,10 @@
 
     .footer-wrap ul li {
         padding-bottom: 5px;
+    }
+
+    .footer-wrap {
+        margin-bottom: 90px;
     }
 
 
@@ -325,8 +334,8 @@
         padding: 50px 0;
     }
 
-    .process-area {
-        margin: 80px 0;
+    .process-text {
+        margin-bottom: 0;
     }
 
     .section-title::after {
@@ -346,7 +355,7 @@
         display: none;
     }
 
-    a.header-btn.top {
+    .header-btn.top {
         display: none;
     }
 
@@ -359,10 +368,12 @@
         font-size: 36px;
         margin: 10px 0;
     }
+
     .section-title h2 {
         font-size: 34px;
         margin: 15px 0;
     }
+
     .section-title span {
         font-size: 15px;
         letter-spacing: 2px;
@@ -373,9 +384,7 @@
         margin: 20px 0;
     }
 
-    .services-area {
-        margin: 50px 0;
-    }
+    .services-area {}
 
     .analyz-area {
         padding: 50px 0;
@@ -402,15 +411,16 @@
     :focus-visible {
         padding: 17px 0 17px 15px;
     }
+
     .analyz-from .header-btn {
         top: 13px;
     }
+
     .copyright-area .member-social {
         margin-top: 20px;
     }
-    .teammember-area {
-        margin: 80px 0;
-    }
+
+    .teammember-area {}
 
     .portflio-area {
         padding: 80px 0;
@@ -491,9 +501,11 @@
     .video-icon {
         margin-top: 10px;
     }
+
     .quote-left .section-title span::after {
         left: 0;
     }
+
     .countup-title {
         font-size: 14px;
     }
@@ -512,23 +524,22 @@
         font-size: 15px;
     }
 
-   
-    .lates-area {
-        padding: 30px 0;
-    }
-
-    .lates-wrap {
+    .blog-wrap {
         padding-top: 20px;
     }
-    .lates-text h3 {
+
+    .blog-text h3 {
         font-size: 15px;
     }
+
     .customer-slider .slick-arrow {
         display: none;
     }
 
-    .customer-area {
-        margin: 50px 0;
+    .customer-area {}
+
+    .blog-wrap {
+        margin-top: 30px;
     }
 
     .customer-weap {
@@ -547,10 +558,10 @@
         font-size: 15px;
     }
 
-    .lates-item {
-        margin-bottom: 25px;
+    .blog-item {
+        margin-bottom: 30px;
     }
-    
+
     .quote-fromarea .quote {
         display: unset;
     }
@@ -568,23 +579,25 @@
     .quote-fromarea .quote .quote-subject {
         margin-left: 0;
     }
-    .quote-area {
-        margin: 80px 0;
-    }
+
+    .quote-area {}
+
     .quote-right {
         display: none;
     }
-    .footer-area {
-        padding-top: 50px;
-    }
+
+    .footer-area {}
+
     .footer-wrap {
         margin-bottom: 40px;
         padding-left: 10px;
     }
+
     .footer-wrap h2 {
         font-size: 15px;
         margin-bottom: 10px;
     }
+
     .footer-wrap h2 span {
         padding-right: 5px;
     }
@@ -592,12 +605,16 @@
     .footer-wrap ul li {
         padding-bottom: 5px;
     }
-  
+
     .header-con-number {
         display: none;
     }
 
     .main-logo {
         padding: 0;
+    }
+
+    .footer-wrap {
+        margin-bottom: 50px;
     }
 }
